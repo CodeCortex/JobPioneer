@@ -1,11 +1,11 @@
+import { Navbar, Footer } from "./components";
 function App() {
-
   return (
-      <div>
-        <p className=' text-4xl text-orange-500'>Roshan Jaiswal</p>
-
-      </div>
-  )
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
